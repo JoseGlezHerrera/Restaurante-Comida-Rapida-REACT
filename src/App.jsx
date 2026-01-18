@@ -63,7 +63,7 @@ function App() {
         <div className={modoOscuro ? "bg-dark text-white min-vh-100 p-4" : "bg-light min-vh-100 p-4"}>
 
             {/* Cabecera */}
-            <div className="container mb-4 d-flex justify-content-between align-items-center border-bottom pb-3">
+            <div className="container-fluid mb-4 d-flex justify-content-between align-items-center border-bottom pb-3">
                 <h2><img src="https://pepechiringo.es/wp-content/uploads/2019/01/Diseños-Web-Peoe-Chiringo-04.png" alt="Cafetería" height="50" className="me-2"/> Cafetería I.E.S Lomo de La Herradura</h2>
                 <button
                     className={`btn ${modoOscuro ? "btn-outline-light" : "btn-outline-dark"}`}
@@ -73,7 +73,7 @@ function App() {
                 </button>
             </div>
 
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
 
                     {/* Columna iz, productos */}
